@@ -617,6 +617,10 @@ main {
     text-align: center;
 }
 
+.ready .general-subheading {
+    margin-top: 0;
+}
+
 .ready span, .ready h6 {
     font-family: "Alegreya", serif;
 }
@@ -1037,6 +1041,16 @@ footer .menu {
 
     .dishes-wrap {
         margin-top: 35px;
+    }
+
+    .breakfast {
+        padding: 90px 300px 68px 300px;
+        justify-content: space-around;
+    }
+
+    .breakfast .info {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
